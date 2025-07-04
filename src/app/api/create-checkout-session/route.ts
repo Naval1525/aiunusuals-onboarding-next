@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
           price_data: {
             currency: "usd",
             product_data: { name: "Boarding Pass" },
-            unit_amount: 50, // $0.50 (minimum allowed by Stripe)
+            unit_amount: 2000,
           },
           quantity: 1,
         },
